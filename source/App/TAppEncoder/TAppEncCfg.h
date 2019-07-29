@@ -556,7 +556,7 @@ protected:
     cElement = strtok( cString, " " );
     while ( cElement != NULL )
     {
-      T profile;       
+      T profile = T();       
       std::istringstream ss( cElement ); 
       ss >> profile; 
       val.push_back( profile ); 
