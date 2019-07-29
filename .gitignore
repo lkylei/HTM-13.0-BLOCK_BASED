@@ -1,0 +1,5 @@
+*.o
+objects/
+/lib/
+bin/
+.svn
